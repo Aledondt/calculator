@@ -15,7 +15,8 @@ body {
     background-color: blueviolet;
     color: white;
     font-family: 'monospace', Times, serif;
-    line-height: 6.9;
+    line-height: 1.69;
+    margin-bottom: 100px;
 }
 
 button {
@@ -33,7 +34,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 69vh;
+    height: 75vh;
     min-height: 500px;
     padding: 10px;
     margin-top: 50px;
@@ -71,7 +72,7 @@ button {
 .btnGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
+    grid-gap: 10px;
 }
 
 .span-2 {
@@ -123,7 +124,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
     padding: 10px;
     font-size: 18px;
